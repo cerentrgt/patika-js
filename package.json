@@ -1,0 +1,12 @@
+{
+  "name": "patika-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "start"
+  },
+  "author": "",
+  "license": "ISC"
+}

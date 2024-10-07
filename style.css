@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ekranın tamamını kaplar */
+    margin: 0; /* Varsayılan margin'i sıfırla */
+    font-family: Arial, sans-serif; /* Yazı tipi ayarı */
+    background-color: #f4f4f4; /* Arka plan rengi */
+}
+h1 {
+    color: #333; /* Başlık rengi */
+}
+#result {
+    margin-top: 20px; /* Sonuç alanı için üst boşluk */
+    font-size: 18px; /* Yazı boyutu */
+    color: #555; /* Sonuç rengi */
+}
+button {
+    margin-top: 10px; /* Buton için üst boşluk */
+    padding: 10px 20px; /* Buton içi boşluk */
+    font-size: 16px; /* Buton yazı boyutu */
+    cursor: pointer; /* Fare imleci değişimi */
+    border: none; /* Kenar çizgisi yok */
+    background-color: #28a745; /* Buton rengi */
+    color: white; /* Buton yazı rengi */
+    border-radius: 5px; /* Buton kenar yuvarlama */
+    transition: background-color 0.3s; /* Geçiş efekti */
+}
+button:hover {
+    background-color: #218838; /* Buton hover rengi */
+}
